@@ -12,7 +12,7 @@
 The app helps user find books and save them for their next read and remove books when done reading.
 
 ## Link
-Click [HERE](https://secure-springs-86289.herokuapp.com/) to open the app
+Click [HERE](https://mysterious-fortress-58249.herokuapp.com/) to open the app
 
     - Heroku Error: App Crashed (Issue open)
 
