@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "client/App.js",
-  "homepage": "https://sonali-pandey.github.io/next-read/",
   "scripts": {
     "start": "cd client && node App.js",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
