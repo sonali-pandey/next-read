@@ -14,6 +14,8 @@ The app helps user find books and save them for their next read and remove books
 ## Link
 Click [HERE](https://secure-springs-86289.herokuapp.com/) to open the app
 
+    - Heroku Error: App Crashed (Issue open)
+
 ## Packages
 - [React](https://reactjs.org/)
 - [Apollo Client](https://www.apollographql.com/docs/react/)
