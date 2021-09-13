@@ -25,8 +25,10 @@ const SavedBooks = () => {
         variables: { bookId }
       });
 
+      console.log("book data:", data);
+
       if (error) {
-        throw new Error('something went wrong!');
+        throw new Error('Something went wrong!');
       }
 
       // upon success, remove book's id from localStorage
@@ -39,7 +41,12 @@ const SavedBooks = () => {
   // if data isn't here yet, say so
   if (loading) {
     return <h2>LOADING...</h2>;
-  }
+  } 
+  // else {
+  //   console.log("Saved Books");
+  //   console.log(userData.savedBooks);
+  //   userData.savedBooks.filter((book) => {return book !== null});
+  // }
 
   return (
     <>
