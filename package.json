@@ -4,11 +4,15 @@
   "description": "",
   "main": "client/App.js",
   "scripts": {
-    "start": "cd client && node App.js",
+    "start": "node server/server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build"
   },
+  "engines": {
+    "node": "14.17.1"
+},
   "keywords": [],
   "author": "",
   "license": "MIT",
